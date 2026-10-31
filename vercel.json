@@ -1,8 +1,10 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "index.php", "use": "@vercel/php" }
-  ],
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "index.php": {
+      "runtime": "vercel-php@0.7.0"
+    }
+  },
   "routes": [
     { "src": "/(.*)", "destination": "/index.php" }
   ]
