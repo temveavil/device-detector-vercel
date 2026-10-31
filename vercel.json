@@ -2,7 +2,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
     "api/index.php": {
-      "runtime": "shyim/vercel-php@latest"
+      "runtime": "shyim/vercel-php@1.4.0"
     }
   },
   "routes": [
